@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AppWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="589" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="ca9de" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="31915" class="javax.swing.JButton" binding="loadButton" default-binding="true">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Load Image"/>
+            </properties>
+          </component>
+          <toolbar id="80507">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <borderPainted value="true"/>
+              <orientation value="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f31b" class="javax.swing.JButton" binding="colorMixerButton">
+                <constraints/>
+                <properties>
+                  <text value="Color Mixer"/>
+                </properties>
+              </component>
+              <hspacer id="2f332">
+                <constraints/>
+              </hspacer>
+              <component id="cee39" class="javax.swing.JLabel" binding="zoomLabel">
+                <constraints/>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="9f76" class="javax.swing.JButton" binding="zoomInButton">
+                <constraints/>
+                <properties>
+                  <text value="Zoom In"/>
+                </properties>
+              </component>
+              <component id="d1d27" class="javax.swing.JButton" binding="zoomOutButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Zoom Out"/>
+                </properties>
+              </component>
+              <component id="6f488" class="javax.swing.JButton" binding="originSizeButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Origin Size"/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+        </children>
+      </grid>
+      <grid id="18f48" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="9c09e">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalScrollBarPolicy value="32"/>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="cb898" binding="displayPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
